@@ -53,8 +53,6 @@ function onOpen() {
       .addItem('(Over flow)', 'wordWrapOn')
       .addItem('(CLIP)', 'wordWrapClip')
       .addItem('(Word Wrap On)', 'wordWrapOff'))
-      
-      
       .addSubMenu(ui.createMenu('Date Format')
       .addItem('Set Date to US', 'dateSetUS')
       .addItem('Set Date to UK', 'dateSetUK'))
